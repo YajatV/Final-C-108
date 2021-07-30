@@ -1,0 +1,49 @@
+body
+{
+  color: white;
+  background-image: linear-gradient(#99ff8b,lavender,lightblue);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+  box-shadow: 5px 5px 5px gray;
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 25px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+label{
+  font-size: 18px;
+  color:green;
+  border-radius: 10px;
+  background-color:white;
+  box-shadow: 5px 5px 5px gray;
+}
+
+button{
+  transition: transform 3s;
+}
+
+button:hover{
+  transform:rotateY(180deg);
+}
